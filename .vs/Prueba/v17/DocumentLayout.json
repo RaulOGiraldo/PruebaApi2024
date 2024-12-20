@@ -1,0 +1,129 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Programas Visual Studio 2022\\Prueba2024\\Api\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FCFC07A2-9B6C-4253-939A-C9B885118000}|Prueba.Intrastructure\\Prueba.Intrastructure.csproj|d:\\programas visual studio 2022\\prueba2024\\api\\prueba.intrastructure\\repositories\\transactionsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCFC07A2-9B6C-4253-939A-C9B885118000}|Prueba.Intrastructure\\Prueba.Intrastructure.csproj|solutionrelative:prueba.intrastructure\\repositories\\transactionsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{323F1162-9900-49F7-AF6B-6B6EB4234ABC}|Prueba.Api\\Prueba.Api.csproj|d:\\programas visual studio 2022\\prueba2024\\api\\prueba.api\\controllers\\transactionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{323F1162-9900-49F7-AF6B-6B6EB4234ABC}|Prueba.Api\\Prueba.Api.csproj|solutionrelative:prueba.api\\controllers\\transactionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF8BC2FA-E1C0-4C9A-AA4D-FD823D705F47}|Prueba.Core\\Prueba.Core.csproj|d:\\programas visual studio 2022\\prueba2024\\api\\prueba.core\\services\\transactionsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF8BC2FA-E1C0-4C9A-AA4D-FD823D705F47}|Prueba.Core\\Prueba.Core.csproj|solutionrelative:prueba.core\\services\\transactionsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF8BC2FA-E1C0-4C9A-AA4D-FD823D705F47}|Prueba.Core\\Prueba.Core.csproj|d:\\programas visual studio 2022\\prueba2024\\api\\prueba.core\\helpers\\automapperdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF8BC2FA-E1C0-4C9A-AA4D-FD823D705F47}|Prueba.Core\\Prueba.Core.csproj|solutionrelative:prueba.core\\helpers\\automapperdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCFC07A2-9B6C-4253-939A-C9B885118000}|Prueba.Intrastructure\\Prueba.Intrastructure.csproj|d:\\programas visual studio 2022\\prueba2024\\api\\prueba.intrastructure\\repositories\\productsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCFC07A2-9B6C-4253-939A-C9B885118000}|Prueba.Intrastructure\\Prueba.Intrastructure.csproj|solutionrelative:prueba.intrastructure\\repositories\\productsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{5e929736-0e81-4d52-a78e-546a1649faca}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TransactionsService.cs",
+              "DocumentMoniker": "D:\\Programas Visual Studio 2022\\Prueba2024\\Api\\Prueba.Core\\Services\\TransactionsService.cs",
+              "RelativeDocumentMoniker": "Prueba.Core\\Services\\TransactionsService.cs",
+              "ToolTip": "D:\\Programas Visual Studio 2022\\Prueba2024\\Api\\Prueba.Core\\Services\\TransactionsService.cs",
+              "RelativeToolTip": "Prueba.Core\\Services\\TransactionsService.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAowDIAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T04:46:51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductsRepository.cs",
+              "DocumentMoniker": "D:\\Programas Visual Studio 2022\\Prueba2024\\Api\\Prueba.Intrastructure\\Repositories\\ProductsRepository.cs",
+              "RelativeDocumentMoniker": "Prueba.Intrastructure\\Repositories\\ProductsRepository.cs",
+              "ToolTip": "D:\\Programas Visual Studio 2022\\Prueba2024\\Api\\Prueba.Intrastructure\\Repositories\\ProductsRepository.cs",
+              "RelativeToolTip": "Prueba.Intrastructure\\Repositories\\ProductsRepository.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T04:41:23.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TransactionsRepository.cs",
+              "DocumentMoniker": "D:\\Programas Visual Studio 2022\\Prueba2024\\Api\\Prueba.Intrastructure\\Repositories\\TransactionsRepository.cs",
+              "RelativeDocumentMoniker": "Prueba.Intrastructure\\Repositories\\TransactionsRepository.cs",
+              "ToolTip": "D:\\Programas Visual Studio 2022\\Prueba2024\\Api\\Prueba.Intrastructure\\Repositories\\TransactionsRepository.cs",
+              "RelativeToolTip": "Prueba.Intrastructure\\Repositories\\TransactionsRepository.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAADgv0kAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T04:34:14.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AutoMapperData.cs",
+              "DocumentMoniker": "D:\\Programas Visual Studio 2022\\Prueba2024\\Api\\Prueba.Core\\Helpers\\AutoMapperData.cs",
+              "RelativeDocumentMoniker": "Prueba.Core\\Helpers\\AutoMapperData.cs",
+              "ToolTip": "D:\\Programas Visual Studio 2022\\Prueba2024\\Api\\Prueba.Core\\Helpers\\AutoMapperData.cs",
+              "RelativeToolTip": "Prueba.Core\\Helpers\\AutoMapperData.cs",
+              "ViewState": "AQIAALMAAAAAAAAAAAAvwMgAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T04:23:12.853Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TransactionsController.cs",
+              "DocumentMoniker": "D:\\Programas Visual Studio 2022\\Prueba2024\\Api\\Prueba.Api\\Controllers\\TransactionsController.cs",
+              "RelativeDocumentMoniker": "Prueba.Api\\Controllers\\TransactionsController.cs",
+              "ToolTip": "D:\\Programas Visual Studio 2022\\Prueba2024\\Api\\Prueba.Api\\Controllers\\TransactionsController.cs",
+              "RelativeToolTip": "Prueba.Api\\Controllers\\TransactionsController.cs",
+              "ViewState": "AQIAAGsAAAAAAAAAAAAvwHwAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T04:21:51.676Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

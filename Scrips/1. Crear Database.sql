@@ -1,0 +1,1 @@
+create database Company_RaulOswaldoGiraldo encoding 'UTF8' template template1;

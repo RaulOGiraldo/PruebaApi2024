@@ -1,0 +1,121 @@
+{
+	"info": {
+		"_postman_id": "109fb520-bdcf-4cb9-96c9-fc4e380f8d42",
+		"name": "Prueba-Transactions",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29814975"
+	},
+	"item": [
+		{
+			"name": "Consultar todas las Transactions",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7143/api/transactions?Tipo=\"\"&ProductId=0&UsuarioId=0",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7143",
+					"path": [
+						"api",
+						"transactions"
+					],
+					"query": [
+						{
+							"key": "Tipo",
+							"value": "\"\""
+						},
+						{
+							"key": "ProductId",
+							"value": "0"
+						},
+						{
+							"key": "UsuarioId",
+							"value": "0"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Consulta por Id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7143/api/transactions/9",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7143",
+					"path": [
+						"api",
+						"transactions",
+						"9"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Insertar Transactions",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"traId\": 9,\r\n    \"traProId\": 9,\r\n    \"traDate\": \"2024-12-19\",\r\n    \"traUnits\": 3,\r\n    \"traUseId\": 4\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7143/api/transactions",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7143",
+					"path": [
+						"api",
+						"transactions"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Eliminar una Transactions",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7143/api/transactions/9?Usuario=2",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7143",
+					"path": [
+						"api",
+						"transactions",
+						"9"
+					],
+					"query": [
+						{
+							"key": "Usuario",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

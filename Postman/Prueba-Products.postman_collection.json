@@ -1,0 +1,137 @@
+{
+	"info": {
+		"_postman_id": "81a69391-1a32-466f-a311-f0808553834a",
+		"name": "Prueba-Products",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29814975"
+	},
+	"item": [
+		{
+			"name": "Consultar todos Products",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7143/api/products?Tipo=\"\"",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7143",
+					"path": [
+						"api",
+						"products"
+					],
+					"query": [
+						{
+							"key": "Tipo",
+							"value": "\"\""
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Consultar por Id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7143/api/products/4",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7143",
+					"path": [
+						"api",
+						"products",
+						"4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Insertar Products",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"proId\": 8,\r\n    \"proName\": \"Video vin 100px\",\r\n    \"proStock\": 3\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7143/api/products",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7143",
+					"path": [
+						"api",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Editar un Products",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"proName\": \"Televisor de 55' pulgadas \",\r\n    \"proStock\": 20\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7143/api/products/5",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7143",
+					"path": [
+						"api",
+						"products",
+						"5"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Eliminar Products",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7143/api/products/25",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7143",
+					"path": [
+						"api",
+						"products",
+						"25"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

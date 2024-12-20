@@ -1,0 +1,110 @@
+{
+	"info": {
+		"_postman_id": "5eb62280-c9bb-4cd6-bf0e-b77c6dad691c",
+		"name": "Prueba-Users",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29814975"
+	},
+	"item": [
+		{
+			"name": "Insertar user",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"useId\": 5,\r\n    \"useName\": \"Marthe Elena Vasquez\",\r\n    \"useDocument\": \"42000258\",\r\n    \"roles\": [\r\n        {\r\n            \"rolId\": 4,\r\n            \"rolName\": \"Viewer\"\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7143/api/Users",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7143",
+					"path": [
+						"api",
+						"Users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Editar User",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"useName\": \"Oscer Eduardo Lopez M.\",\r\n    \"useDocument\": \"18506470-55\",\r\n    \"roles\": [\r\n        {\r\n            \"rolId\": 1,\r\n            \"rolName\": \"Admin\"\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7143/api/Users/4",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7143",
+					"path": [
+						"api",
+						"Users",
+						"4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Todos los Users",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7143/api/Users",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7143",
+					"path": [
+						"api",
+						"Users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Consultar por Id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7143/api/Users/4",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7143",
+					"path": [
+						"api",
+						"Users",
+						"4"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
