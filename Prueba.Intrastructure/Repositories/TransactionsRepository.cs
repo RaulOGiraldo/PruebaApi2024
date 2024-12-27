@@ -66,12 +66,13 @@ namespace Prueba.Intrastructure.Repositories
             var regs = await _context.SaveChangesAsync();
             if (regs > 0)
             {
-                var consProd = await _repositoryProd.Get(Id);
+                var IdProd = currentTra.TraProId;
+                var consProd = await _repositoryProd.Get(IdProd);
                 ProductDTO productDTO = new ProductDTO();
-                productDTO.ProId = Id;
+                productDTO.ProId = IdProd;
                 productDTO.ProName = consProd.ProName;
                 productDTO.ProStock = (consProd.ProStock + currentTra.TraUnits);
-                var result = await _repositoryProd.Update(Id, productDTO);
+                var result = await _repositoryProd.Update(IdProd, productDTO);
             }
             return (regs > 0);
         }

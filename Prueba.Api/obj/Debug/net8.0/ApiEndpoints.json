@@ -45,7 +45,7 @@
     "Parameters": [
       {
         "Name": "product",
-        "Type": "PostgresSql.Data.Product",
+        "Type": "Prueba.Core.DTOs.ProductCreacionDTO",
         "IsRequired": true
       }
     ],

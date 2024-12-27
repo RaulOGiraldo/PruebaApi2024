@@ -7,7 +7,7 @@ namespace Prueba.Core.Interfaces
     {
         Task<IEnumerable<Product>> GetAll();
         Task<Product> Get(int Id);
-        Task<bool> Insert(Product product);
+        Task<bool> Insert(ProductCreacionDTO product);
         Task<bool> Update(int Id, ProductDTO productDTO);
         Task<bool> Delete(int Id);
     }

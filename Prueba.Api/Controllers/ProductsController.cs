@@ -58,7 +58,7 @@ namespace Prueba.Api.Controllers
         /// <param name="tbProveedor"></param>
         /// <returns></returns>
         [HttpPost]
-        public async Task<IActionResult> Insert(Product product)
+        public async Task<IActionResult> Insert(ProductCreacionDTO product)
         {
             string menx = Tools.Constantes.FAIL_INSERT_MESSAGE;
             var respx = await _productService.Insert(product);

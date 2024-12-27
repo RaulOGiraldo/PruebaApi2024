@@ -10,3 +10,4 @@ D:\Programas Visual Studio 2022\Prueba2024\Api\Prueba.Core\obj\Debug\net8.0\Prue
 D:\Programas Visual Studio 2022\Prueba2024\Api\Prueba.Core\obj\Debug\net8.0\refint\Prueba.Core.dll
 D:\Programas Visual Studio 2022\Prueba2024\Api\Prueba.Core\obj\Debug\net8.0\Prueba.Core.pdb
 D:\Programas Visual Studio 2022\Prueba2024\Api\Prueba.Core\obj\Debug\net8.0\ref\Prueba.Core.dll
+D:\Programas Visual Studio 2022\Prueba2024\Api\Prueba.Core\obj\Debug\net8.0\Prueba.Core.sourcelink.json

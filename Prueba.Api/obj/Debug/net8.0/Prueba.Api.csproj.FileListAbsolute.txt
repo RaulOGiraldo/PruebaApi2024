@@ -89,3 +89,4 @@ D:\Programas Visual Studio 2022\Prueba2024\Api\Prueba.Api\obj\Debug\net8.0\refin
 D:\Programas Visual Studio 2022\Prueba2024\Api\Prueba.Api\obj\Debug\net8.0\Prueba.Api.pdb
 D:\Programas Visual Studio 2022\Prueba2024\Api\Prueba.Api\obj\Debug\net8.0\Prueba.Api.genruntimeconfig.cache
 D:\Programas Visual Studio 2022\Prueba2024\Api\Prueba.Api\obj\Debug\net8.0\ref\Prueba.Api.dll
+D:\Programas Visual Studio 2022\Prueba2024\Api\Prueba.Api\obj\Debug\net8.0\Prueba.Api.sourcelink.json

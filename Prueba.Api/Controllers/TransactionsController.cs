@@ -1,12 +1,9 @@
 ﻿using InsttanttFlujos.Core.QueryFilters;
 using Microsoft.AspNetCore.Mvc;
-using PostgresSql.Data;
 using Prueba.Api.Responses;
 using Prueba.Core.DTOs;
 using Prueba.Core.Helpers;
 using Prueba.Core.Interfaces;
-using Prueba.Core.Services;
-using System.Transactions;
 
 namespace Prueba.Api.Controllers
 {

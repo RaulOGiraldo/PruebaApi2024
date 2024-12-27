@@ -1,4 +1,6 @@
-﻿namespace Prueba.Core.DTOs
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace Prueba.Core.DTOs
 {
     public class RolDTO
     {

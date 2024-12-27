@@ -33,7 +33,7 @@ namespace Prueba.Core.Services
             return await _repository.Get(Id);
         }
 
-        public async Task<bool> Insert(Product product)
+        public async Task<bool> Insert(ProductCreacionDTO product)
         {
             var regx = await _repository.Insert(product);
             return regx;

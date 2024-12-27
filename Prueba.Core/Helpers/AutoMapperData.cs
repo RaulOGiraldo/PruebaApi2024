@@ -100,7 +100,7 @@ namespace Prueba.Core.Helpers
                         TraDate = trans.TraDate,
                         TraUnits = trans.TraUnits,
                         TraIsDeleted = trans.TraIsDeleted,
-                        TraUseId = trans.TraId,
+                        TraUseId = trans.TraUseId,
                         TraProductos = MapearProducts(trans.TraProductos),
                         User = MapearUserTransctions(trans.User)
                     });

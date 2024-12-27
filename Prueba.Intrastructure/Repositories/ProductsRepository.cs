@@ -25,9 +25,14 @@ namespace Prueba.Intrastructure.Repositories
             var prods = await _context.Products.FirstOrDefaultAsync(x => x.ProId == Id && x.ProIsdeleted == false);
             return (prods);
         }
-        public async Task<bool> Insert(Product product)
+        public async Task<bool> Insert(ProductCreacionDTO product)
         {
-            _context.Add(product);
+            Product prod = new Product();
+            prod.ProId = product.ProId;
+            prod.ProName = product.ProName;
+            prod.ProStock = product.ProStock;   
+
+            _context.Add(prod);
             var regs = await _context.SaveChangesAsync();
             return (regs > 0);
 

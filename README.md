@@ -1,13 +1,12 @@
-# TempoPrueba APP
+# Prueba APP
 
-Esto es una API de pruebas para una tabla de Proveedores en MongoDB y net core 6.0.
+Esto es una API de pruebas para las tablas de Users, Roles, UsersInRoles, Products y Transactions, con base de datos PostgresSQL y net core 8.0.
 
 ## Development steps
 
 1. Se debe descargar el codigo y actualizar todas sus dependencias.
-2. Compilar en Docker y se debe tener instalado el Docker Desktop para que arranque como tal.
-3. tambien se puede compilar como uan API independiente mediante Visual Studio .Net
-
+2. Se puede compilar como uan API independiente mediante Visual Studio .Net
+3. Debe de tener una base de datos PostgresSQL y cambiar la cadena de conexion en AppSetting
 ```
 https://localhost:7143/swagger/index.html
 

@@ -15,3 +15,4 @@ D:\Programas Visual Studio 2022\Prueba2024\Api\Prueba.Intrastructure\obj\Debug\n
 D:\Programas Visual Studio 2022\Prueba2024\Api\Prueba.Intrastructure\obj\Debug\net8.0\Prueba.Intrastructure.pdb
 D:\Programas Visual Studio 2022\Prueba2024\Api\Prueba.Intrastructure\obj\Debug\net8.0\Prueba.Intrastructure.genruntimeconfig.cache
 D:\Programas Visual Studio 2022\Prueba2024\Api\Prueba.Intrastructure\obj\Debug\net8.0\ref\Prueba.Intrastructure.dll
+D:\Programas Visual Studio 2022\Prueba2024\Api\Prueba.Intrastructure\obj\Debug\net8.0\Prueba.Intrastructure.sourcelink.json
